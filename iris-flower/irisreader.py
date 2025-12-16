@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 app = Flask(__name__)
-model_path = r'C:\Users\4539\Documents\GitHub\A.I-project\iris-flower\iris_model.pkl'
-scaler_path = r'C:\Users\4539\Documents\GitHub\A.I-project\iris-flower\scaler.pkl'
+model_path = r'C:\Users\4534\Documents\A.I_project\iris-flower\iris_model.pkl'
+scaler_path = r'C:\Users\4534\Documents\A.I_project\iris-flower\scaler.pkl'
 
 model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
