@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-pipeline = joblib.load('iris_pipeline.pkl')
+pipeline = joblib.load('iris-flower\iris_pipeline.pkl')
 
 species_map = {
     0: 'Iris-setosa',
